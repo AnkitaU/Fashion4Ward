@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PLS-cf-KNr">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Home PageVC-->
+        <scene sceneID="eRx-7d-qAY">
+            <objects>
+                <viewController id="PLS-cf-KNr" customClass="HomePageVC" customModule="iOSDevCamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cuT-VB-a3C"/>
+                        <viewControllerLayoutGuide type="bottom" id="pfI-Cg-5ok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cbQ-hi-uTd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qB-lE-JBy">
+                                <rect key="frame" x="168" y="429" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="cZe-Df-Htu" kind="show" id="J9n-pH-qaR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="letsPlayButton" destination="3qB-lE-JBy" id="TpT-2L-tfG"/>
+                        <outlet property="playButton" destination="3qB-lE-JBy" id="dGa-02-dSO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4WQ-d5-KAa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-308" y="-761"/>
+        </scene>
+        <!--Yay Or NayVC-->
+        <scene sceneID="Xtp-xg-Cjf">
+            <objects>
+                <viewController id="cZe-Df-Htu" customClass="YayOrNayVC" customModule="iOSDevCamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Tp-N8-OCF"/>
+                        <viewControllerLayoutGuide type="bottom" id="eJ9-5D-3PT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nex-4C-ei9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="635"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QDu-Lm-Hiz">
+                                <rect key="frame" x="-20" y="0.0" width="600" height="635"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic_to_use" translatesAutoresizingMaskIntoConstraints="NO" id="soV-fg-GMl">
+                                        <rect key="frame" x="121" y="60" width="247" height="309"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9LY-PT-tdR">
+                                        <rect key="frame" x="55" y="20" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pU-UZ-MFH">
+                                        <rect key="frame" x="224" y="403" width="30" height="30"/>
+                                        <state key="normal" title="Ok"/>
+                                        <connections>
+                                            <segue destination="O3c-8N-Zm5" kind="showDetail" id="Th7-ag-sb4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Agw-HI-zqd">
+                                        <rect key="frame" x="301" y="403" width="67" height="30"/>
+                                        <state key="normal" title="Comment"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yz-wR-w3Y">
+                                        <rect key="frame" x="130" y="403" width="30" height="30"/>
+                                        <state key="normal" title="Like"/>
+                                        <connections>
+                                            <segue destination="O3c-8N-Zm5" kind="showDetail" id="3sj-qx-xKn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QDu-Lm-Hiz" firstAttribute="leading" secondItem="Nex-4C-ei9" secondAttribute="leading" id="hb4-8k-kcM"/>
+                            <constraint firstItem="QDu-Lm-Hiz" firstAttribute="top" secondItem="Nex-4C-ei9" secondAttribute="top" id="kA1-6X-gFs"/>
+                            <constraint firstAttribute="trailing" secondItem="QDu-Lm-Hiz" secondAttribute="trailing" id="ks5-fk-cNF"/>
+                            <constraint firstItem="eJ9-5D-3PT" firstAttribute="top" secondItem="QDu-Lm-Hiz" secondAttribute="bottom" id="mRA-uR-2lt"/>
+                            <constraint firstItem="QDu-Lm-Hiz" firstAttribute="width" secondItem="Nex-4C-ei9" secondAttribute="width" id="xD4-0c-QHU"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="635"/>
+                    <connections>
+                        <outlet property="YayOrNayTitle" destination="9LY-PT-tdR" id="n4O-yM-EhC"/>
+                        <outlet property="likeNext" destination="QDu-Lm-Hiz" id="hDH-Fh-OUf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="117-BL-RTp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="441" y="-730.5"/>
+        </scene>
+        <!--Yay Or Nay TwoVC-->
+        <scene sceneID="tkG-U9-2t7">
+            <objects>
+                <viewController id="O3c-8N-Zm5" customClass="YayOrNayTwoVC" customModule="iOSDevCamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m8P-h7-RaJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="xcZ-ML-DZD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W4X-TD-3Hx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic1" translatesAutoresizingMaskIntoConstraints="NO" id="0SC-0k-h1e">
+                                <rect key="frame" x="180" y="101" width="167" height="262"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K6m-rU-sDS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-28" y="40"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pic1" width="236" height="354"/>
+        <image name="pic_to_use" width="610" height="610"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Th7-ag-sb4"/>
+    </inferredMetricsTieBreakers>
+</document>
