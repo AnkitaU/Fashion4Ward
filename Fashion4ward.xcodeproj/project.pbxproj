@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EE7B4AD1D43E2F8006F0A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7B4AC1D43E2F8006F0A55 /* AppDelegate.swift */; };
+		6EE7B4AF1D43E2F8006F0A55 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7B4AE1D43E2F8006F0A55 /* PhotoEditorViewController.swift */; };
+		6EE7B4B21D43E2F8006F0A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE7B4B01D43E2F8006F0A55 /* Main.storyboard */; };
+		6EE7B4B41D43E2F8006F0A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE7B4B31D43E2F8006F0A55 /* Assets.xcassets */; };
+		6EE7B4B71D43E2F8006F0A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE7B4B51D43E2F8006F0A55 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EE7B4A91D43E2F8006F0A55 /* Fashion4ward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashion4ward.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE7B4AC1D43E2F8006F0A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EE7B4AE1D43E2F8006F0A55 /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
+		6EE7B4B11D43E2F8006F0A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EE7B4B31D43E2F8006F0A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EE7B4B61D43E2F8006F0A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EE7B4B81D43E2F8006F0A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE7B4A61D43E2F8006F0A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EE7B4A01D43E2F8006F0A55 = {
+			isa = PBXGroup;
+			children = (
+				6EE7B4AB1D43E2F8006F0A55 /* Fashion4ward */,
+				6EE7B4AA1D43E2F8006F0A55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE7B4AA1D43E2F8006F0A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE7B4A91D43E2F8006F0A55 /* Fashion4ward.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE7B4AB1D43E2F8006F0A55 /* Fashion4ward */ = {
+			isa = PBXGroup;
+			children = (
+				6EE7B4AC1D43E2F8006F0A55 /* AppDelegate.swift */,
+				6EE7B4AE1D43E2F8006F0A55 /* PhotoEditorViewController.swift */,
+				6EE7B4B01D43E2F8006F0A55 /* Main.storyboard */,
+				6EE7B4B31D43E2F8006F0A55 /* Assets.xcassets */,
+				6EE7B4B51D43E2F8006F0A55 /* LaunchScreen.storyboard */,
+				6EE7B4B81D43E2F8006F0A55 /* Info.plist */,
+			);
+			path = Fashion4ward;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE7B4A81D43E2F8006F0A55 /* Fashion4ward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE7B4BB1D43E2F8006F0A55 /* Build configuration list for PBXNativeTarget "Fashion4ward" */;
+			buildPhases = (
+				6EE7B4A51D43E2F8006F0A55 /* Sources */,
+				6EE7B4A61D43E2F8006F0A55 /* Frameworks */,
+				6EE7B4A71D43E2F8006F0A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fashion4ward;
+			productName = Fashion4ward;
+			productReference = 6EE7B4A91D43E2F8006F0A55 /* Fashion4ward.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE7B4A11D43E2F8006F0A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dianne Bronola";
+				TargetAttributes = {
+					6EE7B4A81D43E2F8006F0A55 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6EE7B4A41D43E2F8006F0A55 /* Build configuration list for PBXProject "Fashion4ward" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EE7B4A01D43E2F8006F0A55;
+			productRefGroup = 6EE7B4AA1D43E2F8006F0A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE7B4A81D43E2F8006F0A55 /* Fashion4ward */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE7B4A71D43E2F8006F0A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE7B4B71D43E2F8006F0A55 /* LaunchScreen.storyboard in Resources */,
+				6EE7B4B41D43E2F8006F0A55 /* Assets.xcassets in Resources */,
+				6EE7B4B21D43E2F8006F0A55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE7B4A51D43E2F8006F0A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE7B4AF1D43E2F8006F0A55 /* PhotoEditorViewController.swift in Sources */,
+				6EE7B4AD1D43E2F8006F0A55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EE7B4B01D43E2F8006F0A55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE7B4B11D43E2F8006F0A55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EE7B4B51D43E2F8006F0A55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE7B4B61D43E2F8006F0A55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EE7B4B91D43E2F8006F0A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EE7B4BA1D43E2F8006F0A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE7B4BC1D43E2F8006F0A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fashion4ward/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bronola.Fashion4ward;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EE7B4BD1D43E2F8006F0A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fashion4ward/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bronola.Fashion4ward;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE7B4A41D43E2F8006F0A55 /* Build configuration list for PBXProject "Fashion4ward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE7B4B91D43E2F8006F0A55 /* Debug */,
+				6EE7B4BA1D43E2F8006F0A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE7B4BB1D43E2F8006F0A55 /* Build configuration list for PBXNativeTarget "Fashion4ward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE7B4BC1D43E2F8006F0A55 /* Debug */,
+				6EE7B4BD1D43E2F8006F0A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EE7B4A11D43E2F8006F0A55 /* Project object */;
+}
