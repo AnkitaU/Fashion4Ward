@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E7E9BEE1D4447F900B76510 /* MainPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E9BED1D4447F900B76510 /* MainPhotoViewController.swift */; };
 		6EE7B4AD1D43E2F8006F0A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7B4AC1D43E2F8006F0A55 /* AppDelegate.swift */; };
 		6EE7B4AF1D43E2F8006F0A55 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7B4AE1D43E2F8006F0A55 /* PhotoEditorViewController.swift */; };
 		6EE7B4B21D43E2F8006F0A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE7B4B01D43E2F8006F0A55 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E7E9BED1D4447F900B76510 /* MainPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPhotoViewController.swift; sourceTree = "<group>"; };
 		6EE7B4A91D43E2F8006F0A55 /* Fashion4ward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashion4ward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE7B4AC1D43E2F8006F0A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EE7B4AE1D43E2F8006F0A55 /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				6EE7B4AC1D43E2F8006F0A55 /* AppDelegate.swift */,
 				6EE7B4AE1D43E2F8006F0A55 /* PhotoEditorViewController.swift */,
 				6EE7B4B01D43E2F8006F0A55 /* Main.storyboard */,
+				6E7E9BED1D4447F900B76510 /* MainPhotoViewController.swift */,
 				6EE7B4B31D43E2F8006F0A55 /* Assets.xcassets */,
 				6EE7B4B51D43E2F8006F0A55 /* LaunchScreen.storyboard */,
 				6EE7B4B81D43E2F8006F0A55 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EE7B4AF1D43E2F8006F0A55 /* PhotoEditorViewController.swift in Sources */,
+				6E7E9BEE1D4447F900B76510 /* MainPhotoViewController.swift in Sources */,
 				6EE7B4AD1D43E2F8006F0A55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				6EE7B4BD1D43E2F8006F0A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
